@@ -184,7 +184,7 @@ background: linear-gradient(135deg, rgba(255,182,193,0.8), rgba(255,160,122,0.8)
 
     .services-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
         margin-top: 3rem;
     }
@@ -196,6 +196,8 @@ background: linear-gradient(135deg, rgba(255,182,193,0.8), rgba(255,160,122,0.8)
         box-shadow: 0 8px 25px rgba(255, 182, 193, 0.1);
         transition: all 0.3s ease;
         text-align: center;
+        display: flex;
+        flex-direction: column;
     }
 
     .service-card:hover {
